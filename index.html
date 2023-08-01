@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portfolio Luis Hernando Murcia Amortegui</title>
+    <link rel="stylesheet" href="estilo.css"> 
+
+</head>
+<body>
+    <!-- MENU ENCABEZADO -->
+    <div class="contenedor-header"> 
+        <header>
+            <div class="logo">
+                <a href="#">Luis Amortegui</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="img/hero.png" alt="">
+            </div>
+            <h1>Luis Amortegui</h1>
+            <br>
+            <h2>Desarrollador de software || Analista de operaciones</h2>
+            <div class="redes">
+                <a href="https://www.facebook.com/profile.php?id=100090663481989" target="_blank">
+                    <i class="fa-brands fa-facebook-f"></i>
+                </a>
+                <a href="https://github.com/LuisAmortegui3691" target="_blank">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/luis-hernando-murcia-amortegui-417b521bb/" target="_blank">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+                <a href="https://www.youtube.com/channel/UCUeZpd8OeWTCCyeelty72ig" target="_blank">
+                    <i class="fa-brands fa-youtube"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION SOBRE MI -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mí</h2>
+            <p style="text-align:justify;"><span>Luis Hernando Murcia Amortegui</span> Analista de operaciones en áreas financieras y administrativas, cuento con 5 años de experiencia, en las cuales he desarrollado habilidades no solo contables y financieras, también habilidades tecnológicas. Cuento con la capacidad numérica y tecnológica para el desarrollo de procesos en masas, apoyado de tecnologías como Python, Java, JavaScript, PHP, BVA, AJAX, MySQL, cuento con habilidades básicas en las tecnologías mencionadas anteriormente en cuando al Back-end. También cuento con habilidades de diseño de reportes con Power BI, HTML5, CSS3 y Bootstrap, los proyectos realizados los pueden encontrar en mi perfil de GitHub. https://github.com/LuisAmortegui3691.</p>
+            <p style="text-align:justify;">Cuento con conocimientos en los efectos tributarios de las facturas, todo el tema cuentas por pagar, imposiciones nacionales y municipales, las cuales caracterizo según servicio, compra y municipio en donde se realizan los hechos económicos para el debido registro de las transacciones y la correcta imputación fiscal según municipio y servicio o producto. Tengo conocimientos en nómina, la afectación prestacional tanto por parte del empleado como por parte del empleador, salud, pensión, caja, cesantías, intereses de cesantías, vacaciones, prima, ARL y para quien aplique SENA, ICBF. En cuanto a la gestión de cartera, los descuentos condicionados por prontos pagos, las imposiciones tributarias por cada recibo de caja, y la identificación de los pagos según soporte o valor fijo asignado. Conocimientos en estados financieros, Balance General y P y G, relación del costo y venta. Facturación electrónica de venta, ventas de los productos, he manejado servicios y productos, validando la correcta información para el cliente y los servicios u o productos vendidos. Control de personal en el área financiera, plan de trabajo basado en herramientas tecnológicas, indicadores de avance, novedad de incapacidades, manejo del ambiente laboral.</p>
+
+            <br> <br>
+
+            <div class="fila">
+                <!-- datos personales -->
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Cumpleaños</strong>
+                            22-04-1995
+                        </li>
+                        <li>
+                            <strong>Teléfono</strong>
+                            +57 313 4054960
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            luisamortegui.3691@gmail.com
+                        </li>
+                        <li>
+                            <strong>Website</strong>
+                            
+                        </li>
+                        <li>
+                            <strong>Dirección</strong>
+                            Bogota
+                        </li>
+                        <li>
+                            <strong>Cargo</strong>
+                            <span>Ingeniero de software</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- intereses -->
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>JUEGOS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>MUSICA</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-plane"></i>
+                            <span>VIAJAR</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-brands fa-apple"></i>
+                            <span>MAC OS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-person-hiking"></i>
+                            <span>DEPORTE</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-book"></i>
+                            <span>LIBROS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-car"></i>
+                            <span>AUTOS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-camera"></i>
+                            <span>FOTOS</span>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <button>
+                Descargar CV <i class="fa-solid fa-download"></i>
+                <span class="overlay"></span>
+            </button>
+        </div>
+    </section>
+
+    <!-- SECCION SKILLS -->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>Skills</h2>
+            <div class="fila">
+                <!-- Technical Skill -->
+                <div class="col">
+                    <h3>Habilidades tecnicas</h3>
+                    <div class="skill">
+                        <span>Javascript</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>45%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Java</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>40%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>PHP</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>40%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Power BI</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Professional Skills -->
+                <div class="col">
+                    <h3>Habilidades profesionales</h3>
+                    <div class="skill">
+                        <span>Comunicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Trabajo en Equipo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Creatividad</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>99%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Dedicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>65%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Proyect Management</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>94%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CURRICULUM -->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educación</h3>
+                    <div class="item izq">
+                        <h4>Ingenieria de Softeare</h4>
+                        <span class="casa">Universidad Iberoamericana</span>
+                        <span class="fecha">2021 - 2024</span>
+                        <p>L7 Semestre de ingeniería de software, desarrollando habilidades como el desarrollo de páginas WEB, desarrollos back-end. Front, buenas prácticas de desarrollo, manejando diferentes lenguajes de programacion.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Tecnologia industrial</h4>
+                        <span class="casa">SENA</span>
+                        <span class="fecha">2017 - 2019</span>
+                        <p>Tecnólogo culminado, desarrollando habilidades como gestión logística, tiempos y control de la producción, presupuesto y analisis de predicciones de la demanda, constrol de la produccion y manejo del area de produccion, cadena de produccion, desde la planeacion hasta la venta.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Tecnico procesos contables y tributarios</h4>
+                        <span class="casa">TEINCO</span>
+                        <span class="fecha">2014 - 2016</span>
+                        <p>Procesos contables y tecnicos en las ares financieras, analisis de datos financieros para la toma de desiciones, impuestos, nacionales y municipales, nomina, parafiscales, registros de operaciones financieras diarias, gestion del ciclo contable para los procesos financieros.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col derecha">
+                    <h3>Experiencia de trabajo</h3>
+                    <div class="item der">
+                        <h4>Analista de operaciones</h4>
+                        <span class="casa">NTT DATA</span>
+                        <span class="fecha">2022 - ACTUALMENTE</span>
+                        <p>Análisis de la información correspondiente al tema de cuentas por pagar, llevando a cabo el registro en SAP R/3, correspondientes a los proveedores de PRIMAX, entre las funciones se encuentran las siguientes, para mayor indormacion ver la hoja de vida.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Auxiliar contable Senior</h4>
+                        <span class="casa">Boccherini</span>
+                        <span class="fecha">2021 - 2022</span>
+                        <p>Análisis de la información correspondiente al tema de cuentas por pagar, llevando a cabo el registro en NETSOLIN, correspondientes a los proveedores de PRIMAX, entre las funciones se encuentran las siguientes, para mayor indormacion ver la hoja de vida.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Analista cuentas por pagar</h4>
+                        <span class="casa">FRUBANA</span>
+                        <span class="fecha">2020 - 2021</span>
+                        <p>Análisis de la información correspondiente al tema de cuentas por pagar, llevando a cabo el registro en SAP business one, correspondientes a los proveedores de PRIMAX, entre las funciones se encuentran las siguientes, para mayor indormacion ver la hoja de vida.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION PORTFOLIO -->
+    <section id="portfolio" class="portfolio">
+        <div class="contenido-seccion">
+            <h2>PORTFOLIO</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <a href="https://luisamortegui3691.github.io/perfil-luisamortegui/" target="_blank">
+                        <img src="img/otras_img/fondo1.JPG" alt="" width="800" height="600">
+                        <div class="overlay">
+                            <h3>Pagina WEB</h3>
+                            <p>Portafolio</p>
+                        </div>
+                    </a>
+                    
+                </div>
+                <div class="proyecto">
+                    <a href="https://luisamortegui3691.github.io/bisecc_one/" target="_blank">
+                        <img src="img/otras_img/fondo2.JPG" alt="" width="800" height="600">
+                        <div class="overlay">
+                            <h3>Teoria de numeros</h3>
+                            <p>Matematicas</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="proyecto">
+                    <a href="https://luisamortegui3691.github.io/caida-libre-pelota/" target="_blank">
+                        <img src="img/otras_img/fondo3.JPG" alt="" width="800" height="600">
+                        <div class="overlay">
+                            <h3>Diseño Creativo</h3>
+                            <p>Fotografía</p>
+                        </div>
+                    </a>   
+                </div>
+
+            </div>
+        </div>
+    </section>
+    
+
+    <!-- SECCION CONTACTO -->
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>CONTACTO</h2>
+            <div class="fila">
+                <!-- Formulario -->
+                <div class="col">
+                    <input type="text" placeholder="Tú Nombre">
+                    <input type="text" placeholder="Número telefónico">
+                    <input type="text" placeholder="Dirección de correo">
+                    <input type="text" placeholder="Tema">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <button>
+                        Enviar Mensaje<i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>
+                </div>
+                <!-- Mapa -->
+                <div class="col">
+                    <img src="img/hero.png" alt="" style="width: 150px; height: 200px;">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                Bogota Colombia
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-mobile-screen"></i>
+                                Llamar: 3134054960
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                Email: luisamortegui.3691@gmail.com
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- footer -->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="https://www.facebook.com/profile.php?id=100090663481989" target="_blank">
+                <i class="fa-brands fa-facebook-f"></i>
+            </a>
+            <a href="https://github.com/LuisAmortegui3691" target="_blank">
+                <i class="fa-brands fa-github"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/luis-hernando-murcia-amortegui-417b521bb/" target="_blank">
+                <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+            <a href="https://www.youtube.com/channel/UCUeZpd8OeWTCCyeelty72ig" target="_blank">
+                <i class="fa-brands fa-youtube"></i>
+            </a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
